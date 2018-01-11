@@ -290,17 +290,3 @@ function splitRoot(splitTerm, phrase) {
 
   return result;
 }
-
-// Export all functions as a module
-module.exports = {
-  deduplicateOr: deduplicateOr,
-  andAndMerge: andAndMerge,
-  orAndOrMerge: orAndOrMerge,
-  orsAndMerge: orsAndMerge,
-  mergeOrs: mergeOrs,
-  splitRoot: splitRoot,
-  removeDoubleWhiteSpace: removeDoubleWhiteSpace,
-  removeOuterBrackets: removeOuterBrackets,
-  parseBooleanQuery: parseBooleanQuery,
-  containsBrackets: containsBrackets
-};
